@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-xenial-20210804
     name: A job to say hello
     steps:
       # To use this repository's private action,
